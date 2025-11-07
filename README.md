@@ -1,16 +1,43 @@
-# React + Vite
+# 💣 Avoid the Bomb
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Demo
 
-Currently, two official plugins are available:
+🔗 https://avoid-the-bomb.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+🎮 **Avoid the Bomb** is one of the fun mini-games in the **CasinoVerse — Virtual Casino Experience** collection.  
+In this game, the goal is simple: **click on the safe boxes and avoid the bomb!** Each correct move increases your score, but one wrong click — and 💥 it’s game over!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🕹️ Game Features
+- Interactive grid-based gameplay  
+- Random bomb placement each round  
+- Score tracking system  
+- Smooth animations and simple UI  
+- Restart button to play again instantly  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+- **HTML5** — Structure  
+- **CSS3** — Styling and animations  
+- **JavaScript (ES6)** — Game logic  
+
+---
+
+## 🚀 How to Play
+1. Click on a box to reveal whether it’s safe or a bomb.  
+2. Each safe click increases your score.  
+3. If you click on the bomb — the game ends!  
+4. Click **Restart** to play again.  
+
+---
+
+
+## 🧑‍💻 Author
+
+Gopesh Sharma
+GitHub
