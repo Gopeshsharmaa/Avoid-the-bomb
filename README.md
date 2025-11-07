@@ -36,8 +36,3 @@ In this game, the goal is simple: **click on the safe boxes and avoid the bomb!*
 
 ---
 
-
-## 🧑‍💻 Author
-
-Gopesh Sharma
-GitHub
