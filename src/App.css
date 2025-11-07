@@ -1,0 +1,170 @@
+/* 🎰 Global layout */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* ✨ Frosted glass container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* 🌟 Heading */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #00d4ff;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.6);
+}
+
+/* 🧮 Input & Controls */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 15px 0 20px;
+}
+
+.mine-input {
+  width: 70px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.mine-input:focus {
+  border-color: #00d4ff;
+  box-shadow: 0 0 8px #00d4ff;
+}
+
+/* 🎮 Buttons */
+button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(45deg, #007bff, #00d4ff);
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00d4ff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 🔁 Reset Button */
+.reset-btn {
+  background: linear-gradient(45deg, #ff4d4d, #ff7676);
+}
+
+.reset-btn:hover {
+  box-shadow: 0 0 10px #ff4d4d;
+}
+
+/* 💰 Cashout Button */
+.cashout-btn {
+  background: linear-gradient(45deg, #ffc107, #ffde59);
+  color: #333;
+}
+
+.cashout-btn:hover {
+  box-shadow: 0 0 10px #ffde59;
+  transform: scale(1.05);
+}
+
+/* 💣 Game grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* 🧩 Each cell */
+.cell {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.cell:hover {
+  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.cell.revealed {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px #00d4ff;
+}
+
+/* 💬 Game info */
+.info {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+}
+
+h2, h3 {
+  font-weight: 400;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  margin: 5px 0;
+}
+
+/* ✨ Responsive fix */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    max-width: 95%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(5, 50px);
+    gap: 8px;
+  }
+
+  .cell {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}
